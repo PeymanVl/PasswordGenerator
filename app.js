@@ -2,10 +2,9 @@
 const passwordInput = document.getElementById('password');
 const inputs = [...document.querySelectorAll('input:not([type="text"])')]
 const lengthInput = document.getElementById('lengthInput');
-// const lengthText= document.getElementById('lengthText');
 const copyButton = document.querySelector('.copy');
 const generatorButton = document.getElementById('generator');
-
+// const lengthText= document.getElementById('lengthText'); we dont need this
 const numbers = [2, 3, 4, 5, 6, 7, 8, 9];
 const symbols = ['@', '#', '$', '%'];
 const similarLowercaseLetters = ['i', 'l', 'o'];
