@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     min-height: 100vh;
     display: flex;
@@ -15,6 +16,7 @@ div {
     display: block;
 }
 .copied {
-    color: yellow;
-    background:#07d129
+    color:#07d129;
+    border-color: #07d129;
+    /* background:#07d129 */
 }
